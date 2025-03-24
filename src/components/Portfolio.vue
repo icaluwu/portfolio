@@ -48,25 +48,25 @@ export default {
       projects: [
         {
           title: "L4Feer Website",
-          image: "/src/assets/img/project1.webp",
+          image: new URL('@/assets/img/project1.webp', import.meta.url).href,
           description: "An E-Commerce Restaurant Website using CodeIgniter3.",
           link: "https://github.com/icaluwu/Codeigniter3-Restaurant"
         },
         {
           title: "VieGroup Website",
-          image: "/src/assets/img/project4.webp",
+          image: new URL('@/assets/img/project4.webp', import.meta.url).href,
           description: "A Static Website fully deployed using Alibaba ECS and VueJS.",
           link: "https://viegroup.my.id"
         },
         {
           title: "Victovia Template",
-          image: "/src/assets/img/project2.webp",
+          image: new URL('@/assets/img/project2.webp', import.meta.url).href,
           description: "A static company website built with Vue.js, Bootstrap.",
           link: "https://github.com/icaluwu/Victovia"
         },
         {
           title: "Luxoria Interiors",
-          image: "/src/assets/img/project3.webp",
+          image: new URL('@/assets/img/project3.webp', import.meta.url).href,
           description: "An E-Commerce Furniture using CodeIgniter3, PHP and MySQL.",
           link: "http://luxorainteriors.unaux.com/?i=1"
         }

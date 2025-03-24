@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 text-center">
-          <img src="/src/assets/img/avatar.webp" alt="Ical's Profile" class="img-fluid rounded-circle shadow-lg profile-img">
+          <img src="@/assets/img/avatar.webp" alt="Ical's Profile" class="img-fluid rounded-circle shadow-lg profile-img">
         </div>
         <div class="col-lg-6">
           <h2 class="section-title">About Me</h2>

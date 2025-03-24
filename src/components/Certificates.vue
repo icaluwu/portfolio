@@ -53,16 +53,16 @@ export default {
       selectedCertificate: null,
       selectedCategory: null,
       certificates: [
-        { title: "BNSP Junior Web Developer", image: "/src/assets/img/sert1.webp" },
-        { title: "Python Essentials Certificate", image: "/src/assets/img/sert2.webp" },
-        { title: "Dicoding Web Certificate", image: "/src/assets/img/sert3.webp" },
-        { title: "Alibaba Cloud Computing Certificate", image: "/src/assets/img/sert4.webp" },
-        { title: "Oracle & MySQL Certificate", image: "/src/assets/img/sert5.webp" },
-        { title: "VueJS Workshop Certificate", image: "/src/assets/img/sert6.webp" }
+        { title: "BNSP Junior Web Developer", image: new URL('@/assets/img/sert1.webp', import.meta.url).href },
+        { title: "Python Essentials Certificate", image: new URL('@/assets/img/sert2.webp', import.meta.url).href },
+        { title: "Dicoding Web Certificate", image: new URL('@/assets/img/sert3.webp', import.meta.url).href },
+        { title: "Alibaba Cloud Computing Certificate", image: new URL('@/assets/img/sert4.webp', import.meta.url).href },
+        { title: "Oracle & MySQL Certificate", image: new URL('@/assets/img/sert5.webp', import.meta.url).href },
+        { title: "VueJS Workshop Certificate", image: new URL('@/assets/img/sert6.webp', import.meta.url).href }
       ],
       toefl: {
         title: "TOEFL Certification",
-        image: "/src/assets/img/toefl.webp"
+        image: new URL('@/assets/img/toefl.webp', import.meta.url).href
       }
     };
   },
