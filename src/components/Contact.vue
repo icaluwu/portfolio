@@ -68,7 +68,7 @@ export default {
   methods: {
     sendEmail() {
       const serviceID = "service_icaluwu"; 
-      const templateID = "template_eu3nuze"; 
+      const templateID = "template_tsy2abe"; 
       const publicKey = "Z98vsBcWFRzIQqJBC"; 
       emailjs
         .send(serviceID, templateID, this.form, publicKey)
